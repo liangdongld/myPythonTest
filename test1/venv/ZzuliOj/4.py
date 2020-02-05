@@ -1,0 +1,5 @@
+myInput = input()
+myInput = myInput.split(" ")
+num1 = int(myInput[0])
+num2 = int(myInput[1])
+print("%d %d %d %d %d" %(num1+num2,num1-num2,num1*num2,int(num1/num2),num1%num2))
